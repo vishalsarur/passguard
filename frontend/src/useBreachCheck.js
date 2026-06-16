@@ -62,7 +62,7 @@ export function useBreachCheck() {
     setEmailLoading(true);
     setEmailResult(null);
     try {
-      const res = await fetch(`/api/breach/email?email=${encodeURIComponent(email)}`, {
+      const res = await fetch(`https://passguard-backend-5d25.onrender.com/api/breach/email?email=${encodeURIComponent(email)}`, {
         headers: { Accept: 'application/json' },
       });
 
