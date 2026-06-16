@@ -28,7 +28,7 @@ export function useBreachCheck() {
       const hash = await sha1(password);
       const prefix = hash.slice(0, 5);
 
-      const res = await fetch(`/api/breach/password?prefix=${prefix}&hash=${hash}`, {
+      const res = await fetch(`https://passguard-backend-5d25.onrender.com/api/breach/password?prefix=${prefix}&hash=${hash}`, {
         headers: { Accept: 'application/json' },
       });
 
