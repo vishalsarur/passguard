@@ -1,29 +1,29 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --bg: #fafafa;
+  --bg: #f8f9fc;
   --surface: #ffffff;
-  --surface2: #f7f7f8;
-  --surface3: #f1f1f3;
+  --surface2: #f3f4f8;
+  --surface3: #eceef5;
 
-  --border: #e5e7eb;
-  --border2: #d1d5db;
+  --border: #e2e5ee;
+  --border2: #d4d9e5;
 
-  --text: #111827;
+  --text: #1a1b26;
   --muted: #6b7280;
-  --muted2: #9ca3af;
+  --muted2: #8b93a7;
 
   --accent: #7c5cfc;
-  --accent-dim: rgba(124, 92, 252, 0.10);
+  --accent-dim: rgba(124, 92, 252, 0.12);
 
-  --green: #22c55e;
-  --green-dim: rgba(34, 197, 94, 0.10);
+  --green: #16a34a;
+  --green-dim: rgba(22, 163, 74, 0.10);
 
-  --red: #ef4444;
-  --red-dim: rgba(239, 68, 68, 0.10);
+  --red: #dc2626;
+  --red-dim: rgba(220, 38, 38, 0.10);
 
-  --yellow: #f59e0b;
-  --yellow-dim: rgba(245, 158, 11, 0.10);
+  --yellow: #d97706;
+  --yellow-dim: rgba(217, 119, 6, 0.10);
 
   --font-mono: 'Space Mono', monospace;
   --font-body: 'DM Sans', sans-serif;
